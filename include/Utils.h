@@ -1,24 +1,24 @@
-#include <BigInteger.h>
+#include "../vendor/bigint.h"
 
 #define inf -1
 typedef unsigned int uint;
-// deal with BigInteger as it will behave as a normal integer don't worry for this
+// deal with bigint as it will behave as a normal integer don't worry for this
 
 // Calculates (A * B) % mod
-BigInteger modularMultiplication (const BigInteger& A,const BigInteger& B,const BigInteger& mod)
+bigint modularMultiplication (const bigint& A,const bigint& B,const bigint& mod)
 {
 
 }
 
 
 // Calculates (A ^ B) % mod
-BigInteger modularPower (const BigInteger& base,const BigInteger& power,const BigInteger& mod)
+bigint modularPower (const bigint& base,const bigint& power,const bigint& mod)
 {
 
 }
 
 // Calculates (A ^ -1) % mod => check for its validity
-BigInteger modularInverse (const BigInteger& A, const BigInteger& mod)
+bigint modularInverse (const bigint& A, const bigint& mod)
 {
 
 }

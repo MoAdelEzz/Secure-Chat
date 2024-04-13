@@ -1,11 +1,11 @@
 #include "Utils.h"
-#include "BigInteger.h"
+#include "../vendor/bigint.h"
 
 class Randomizer
 {
     Randomizer(int seed);
 
-    BigInteger generateRandomNumber(uint numberOfBits, int st = 0, int en = inf)
+    bigint generateRandomNumber(uint numberOfBits, int st = 0, int en = inf)
     {
         if (st > en) 
             throw "INVALID RANGE: start must be less than or equal end";
@@ -14,6 +14,6 @@ class Randomizer
         // optionally will pass some limits for the number
         // inf is just -1 not max as there will be no max :)
 
-        return BigInteger("");
+        return bigint("");
     }
 };

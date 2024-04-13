@@ -5,7 +5,7 @@
 class Elgamal : DiffieHellman
 {
 protected:
-    BigInteger* k;
+    bigint* k;
 
 public:
     Elgamal(int numberOfBits) : DiffieHellman(numberOfBits) 
@@ -15,19 +15,19 @@ public:
         // NOTE: DH constructor is called first so you can use q value without problems to check
     }
 
-    BigInteger* signMessage(BigInteger M)
+    bigint* signMessage(bigint M)
     {
         // implement Elgamal algorithm here and return both ciphertext elements
         // create the array dynamically please in order not to delete it while returning
     }
 
 
-    BigInteger generatePublicKey(string privateKey)
+    bigint generatePublicKey(string privateKey)
     {
         //TODO: generate the public key which is Y = alpha^X % q; 
     }
 
-    BigInteger generateSessionKey(string otherPublicKey, string privateKey)
+    bigint generateSessionKey(string otherPublicKey, string privateKey)
     {
         // TODO: generate the session key which is S = YB ^ XA % q;
     }

@@ -1,9 +1,10 @@
-#include <Randomizer.h>
+#include "../vendor/bigint.h"
+using std::string;
 
 class DiffieHellman
 {
 protected:
-    BigInteger* q, alpha;
+    bigint* q, alpha;
 public:
     DiffieHellman(int numberOfBits)
     {
@@ -22,12 +23,12 @@ public:
 
 
 
-    BigInteger generatePublicKey(string privateKey)
+    bigint generatePublicKey(string privateKey)
     {
         //TODO: generate the public key which is Y = alpha^X % q; 
     }
 
-    BigInteger generateSessionKey(string otherPublicKey, string privateKey)
+    bigint generateSessionKey(string otherPublicKey, string privateKey)
     {
         // TODO: generate the session key which is S = YB ^ XA % q;
     }
