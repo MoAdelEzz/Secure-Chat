@@ -14,4 +14,4 @@ C++ secure chatting application over sockets that uses Deffie Hellman for exchan
 
 # Demo Video
 
-https://github.com/MoAdelEzz/Secure-Chat/blob/main/Demo/2024-04-26%2023-48-29.mp4
+<video src="https://github.com/MoAdelEzz/Secure-Chat/blob/main/Demo/2024-04-26%2023-48-29.mp4"/>
