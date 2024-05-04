@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32929.386
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server", "server\server.vcxproj", "{8CD8F03E-BA57-41BF-A320-F612CA624B7F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcxproj", "{87E30775-9D3E-4B17-9476-71A5DC7805FB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Secure-Chat", "Secure-Chat\client.vcxproj", "{87E30775-9D3E-4B17-9476-71A5DC7805FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,14 +13,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8CD8F03E-BA57-41BF-A320-F612CA624B7F}.Debug|x64.ActiveCfg = Debug|x64
-		{8CD8F03E-BA57-41BF-A320-F612CA624B7F}.Debug|x64.Build.0 = Debug|x64
-		{8CD8F03E-BA57-41BF-A320-F612CA624B7F}.Debug|x86.ActiveCfg = Debug|Win32
-		{8CD8F03E-BA57-41BF-A320-F612CA624B7F}.Debug|x86.Build.0 = Debug|Win32
-		{8CD8F03E-BA57-41BF-A320-F612CA624B7F}.Release|x64.ActiveCfg = Release|x64
-		{8CD8F03E-BA57-41BF-A320-F612CA624B7F}.Release|x64.Build.0 = Release|x64
-		{8CD8F03E-BA57-41BF-A320-F612CA624B7F}.Release|x86.ActiveCfg = Release|Win32
-		{8CD8F03E-BA57-41BF-A320-F612CA624B7F}.Release|x86.Build.0 = Release|Win32
 		{87E30775-9D3E-4B17-9476-71A5DC7805FB}.Debug|x64.ActiveCfg = Debug|x64
 		{87E30775-9D3E-4B17-9476-71A5DC7805FB}.Debug|x64.Build.0 = Debug|x64
 		{87E30775-9D3E-4B17-9476-71A5DC7805FB}.Debug|x86.ActiveCfg = Debug|Win32

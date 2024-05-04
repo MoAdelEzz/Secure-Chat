@@ -1,0 +1,3 @@
+passcode is HIDING
+=================================
+flag is CMPN{Spring2024}

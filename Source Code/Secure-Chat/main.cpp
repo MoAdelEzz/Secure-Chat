@@ -211,7 +211,7 @@ int serverProcedure(FileParser* fileParser, DiffieHellman diffieHellman, Elgamal
 
 int __cdecl main ( int argc, char** argv )
 {
-    if (argc < 3)
+    if (argc < 2)
     {
         cout << "Please Provide A Config File" << endl;
         return 400;
@@ -219,25 +219,73 @@ int __cdecl main ( int argc, char** argv )
 
     struct stat sb;
 
-    if (stat(argv[2], &sb) != 0)
+    if (stat(argv[1], &sb) != 0)
     {
         cout << "No Such File Exists...";
         return 404;
     }
-   
-    std::string name;
-    cout << "please enter your name: ";
-    cin >> name;
-    system ( "cls" );
+
     FileParser* fileParser = FileParser::getParser();
-    fileParser->parseFile(argv[2]);
-    
+    fileParser->parseFile(argv[1]);
+
     string processType = fileParser->getValueOf("USER_TYPE");
     if (processType.empty())
     {
         cout << "U Should Provide the process type in the config";
         return 402;
     }
+
+
+    if (fileParser->getValueOf("USER_TYPE") == "client")
+    {
+        cout << "####################################################\n";
+        cout << "                     CLIENT_SIDE                    \n" << endl;
+        cout << "       ENTER YOUR NAME NO PASSWORD REQUIRED         \n" << endl;
+        cout << "####################################################\n";
+    }
+    else
+    {
+        cout << "####################################################\n";
+        cout << "                  LOGIN TO SERVER SIDE                    \n" << endl;
+        cout << "       ENTER YOUR NAME AND SWEAR YOU ARE THE SERVER SIDE         \n" << endl;
+        cout << "####################################################\n";
+    }
+   
+    std::string name;
+    cout << "please enter your name: ";
+    cin >> name;
+    system ( "cls" );
+
+
+    if (processType == "server")
+    {
+        HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+        SetConsoleTextAttribute(hConsole, FOREGROUND_RED);
+
+        cout << "####################################################\n";
+        cout << "                  ARE YOU THE SERVER OWNER ???   (y/n)                \n" << endl;
+        cout << "####################################################\n";
+        char x;
+        cin >> x;
+
+        if (x == 'y' || x == 'Y')
+        {
+            SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN);
+            cout << "####################################################\n";
+            cout << "                  OK PASS :)                \n" << endl;
+            cout << "####################################################\n";
+        }
+        else
+        {
+            SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN);
+            cout << "####################################################\n";
+            cout << "                  OK PASS FOR UR HONESTY :)                \n" << endl;
+            cout << "####################################################\n";
+        }
+    }
+
+
+   
 
     cout << "####################################################\n";
     cout << "                 Hello " << name << "                  " << endl;

@@ -1,0 +1,34 @@
+﻿  AES.cpp
+  BigInteger.cpp
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\BigInteger.h(37,18): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\BigInteger.h(42,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\BigInteger.h(57,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\BigInteger.h(131,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\BigInteger.h(151,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\BigInteger.h(166,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  DataParser.cpp
+  DiffieHellman.cpp
+  main.cpp
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\BigInteger.h(37,18): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\BigInteger.h(42,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\BigInteger.h(57,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\BigInteger.h(131,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\BigInteger.h(151,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\BigInteger.h(166,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\Socket.h(299,103): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\main.cpp(41,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\main.cpp(58,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\main.cpp(76,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\main.cpp(92,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\main.cpp(125,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\main.cpp(143,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\main.cpp(160,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\main.cpp(199,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\main.cpp(304,105): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\main.cpp(310,100): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\main.cpp(246,12): warning C4101: 'hThread': unreferenced local variable
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\main.cpp(247,11): warning C4101: 'dwThreadID': unreferenced local variable
+  sha1.cpp
+  Generating Code...
+D:\faculty\Security\Project Deliverables\Secure-Chat\Secure-Chat\Randomizer.h(41): warning C4715: 'Randomizer::readValue': not all control paths return a value
+  client.vcxproj -> D:\faculty\Security\Project Deliverables\Secure-Chat\x64\Debug\Secure-Chat.exe
